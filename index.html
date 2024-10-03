@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="monika" content="width=device-width, initial-scale=1.0" />
+    <title>Personal portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/logo.png" class="logo" />
+          <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-text">
+          <p>CSE Student</p>
+          <h1>I'm <span>Marri Monika </span><br />from hyd</h1>
+        </div>
+      </div>
+    </div>
+    <!---------------about----------------->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/users.png" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              An independent and self-motivated hardworking computer science
+              student dedicated towards goals.Proficient in programming
+              languages such as C, Java, Python. I’m Skilled in problem –
+              solving and analytical thinking,with a keen interest in software
+              development and web technologies.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('Certification')">
+                Certification
+              </p>
+              <p class="tab-links" onclick="opentab('Education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="Skills">
+              <ul>
+                <li><span>Python</span></li>
+                <li><span>C</span></li>
+                <li><span>Java</span></li>
+                <li><span>Html</span></li>
+                <li><span>CSS</span></li>
+                <li><span>Java Script</span></li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="Certification">
+              <ul>
+                <li>
+                  <span>Certification on Python basics by hackerrank</span>
+                </li>
+                <li>
+                  <span
+                    >Certification on SWAYAM online course<br />for introduction
+                    to intellectual property</span
+                  >
+                </li>
+                <li>
+                  <span>Certification on beginning Python by infosys</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="Education">
+              <ul>
+                <li><span>2021</span><br />SPR Junior college</li>
+                <li><span>2019</span><br />Sai Model high school</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-------------services--------->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <h2>Web Design</h2>
+            <p>
+              An independent and self-motivated hardworking computer science
+              student dedicated towards goals.
+            </p>
+            <a href="#">learn more</a>
+          </div>
+          <div>
+            <h2>UI/UX design</h2>
+            <p>
+              An independent and self-motivated hardworking computer science
+              student dedicated towards goals.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <h2>app design</h2>
+            <p>
+              An independent and self-motivated hardworking computer science
+              student dedicated towards goals.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-----------portfolio--------------------->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/work-1.png" />
+            <div class="layer">
+              <h3>Social Media App</h3>
+              <p>
+                An independent and self-motivated hardworking computer science
+                student dedicated towards goals.
+              </p>
+              <a href="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-2.png" />
+            <div class="layer">
+              <h3>music App</h3>
+              <p>
+                An independent and self-motivated hardworking computer science
+                student dedicated towards goals.
+              </p>
+              <a href="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-3.png" />
+            <div class="layer">
+              <h3>online shopping App</h3>
+              <p>
+                An independent and self-motivated hardworking computer science
+                student dedicated towards goals.
+              </p>
+              <a href="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+
+    <!------------------------contact---------->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>monika@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>9392328124</p>
+            <div class="social-icons">
+              <!----------<a href="https://github.com/monikareddy891" >
+              <button class="icon-btn linkedin">
+                <i class="fa-brands fa-github"></i>
+              </button>
+            </a>------->
+              <a href=""><i class="fa-brands fa-github"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+              <a href=""><i class="fa-solid fa-hat-chef"></i></a>
+              <a href=""><i class="fa-brands fa-hackerrank"></i></a>
+            </div>
+            <a href="images/MONI ADH.pdf" download class="btn btn2"
+              >Download resume</a
+            >
+          </div>
+          <div class="contact-right">
+            <form>
+              <input
+                type="text"
+                name="Name"
+                placeholder="your name "
+                required
+              />
+              <input
+                type="email"
+                name="email"
+                placeholder="your email"
+                required
+              />
+              <textarea
+                name="message"
+                rows="6"
+                placeholder="your message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright .Portfolio made with html css</p>
+      </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+  </body>
+</html>
